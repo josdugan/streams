@@ -33,7 +33,6 @@ class StreamEdit extends React.Component {
 }
 
 const mapStateToProps = (state, ownProps) => {
-  console.dir(ownProps);
   return { stream: state.streams[ownProps.params.id] };
 };
 
